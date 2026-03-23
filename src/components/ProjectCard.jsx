@@ -1,9 +1,12 @@
-function ProjectCard({ title, description}) {
+function ProjectCard({ title, description, link}) {
     return (
         <div className="project-card"> 
-        <h3> {title} </h3>
-        <p> {description} </p>
-        <button> View Project</button>
+            <h3> {title} </h3>
+            <p> {description} </p>
+
+            <a href={link} target="_blank">
+                <button> View Project</button>
+            </a>
         </div>
     )
 }
