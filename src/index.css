@@ -47,8 +47,13 @@ section {
 .home button {
   padding: 12px 24px;
   border: none;
+  background: black;
+  color: white;
   cursor: pointer;
-  font-size: 16px;
+  border-radius: 6px;
+}
+.home button:hover {
+  background: #333;
 }
 
 .project {
@@ -63,10 +68,16 @@ section {
 }
 .project-card {
   width: 250px;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
+  border-radius: 12px;
   padding: 20px;
-  border-radius: 10px;
   text-align: left;
+  background: white;
+  transition: 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 .project-card h3 {
   margin-top: 0;
@@ -75,7 +86,13 @@ section {
   margin-top: 10px;
   padding: 10px 16px;
   border: none;
+  background: black;
+  color: white;
   cursor: pointer;
+  border-radius: 6px;
+}
+.project-card button:hover {
+  background: #333;
 }
 html {
   scroll-behavior: smooth;
