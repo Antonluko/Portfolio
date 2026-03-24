@@ -1,11 +1,12 @@
 import ProjectCard from "./ProjectCard"
+
 function Projects() {
   return (
     <section id="projects" classNamer="projects">
       <h1>Projects</h1>
       <p>Here are my frontend projects i am working on.</p>
 
-      <div className="project-title">
+      <div className="project-list">
         <ProjectCard 
         title="Portfolio Website"
         descritption="A personal protfolio built with React and Vite"

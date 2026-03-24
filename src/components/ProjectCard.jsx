@@ -4,7 +4,7 @@ function ProjectCard({ title, description, link}) {
             <h3> {title} </h3>
             <p> {description} </p>
 
-            <a href={link} target="_blank">
+            <a href={link} target="_blank"  rel="noreferrer">
                 <button> View Project</button>
             </a>
         </div>
