@@ -154,7 +154,23 @@ section {
 .project-card button:hover {
   background: #333;
 }
-
+/* Contact me  */
+.contact {
+  text-align: left;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+.contact-list li {
+  margin-bottom: 10px;
+}
+.contact a {
+  margin-left: 5px;
+  color: #2563eb;
+  text-decoration: none;
+}
 html {
   scroll-behavior: smooth;
 }
