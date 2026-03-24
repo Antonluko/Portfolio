@@ -64,7 +64,19 @@ section {
 .home button:hover {
      background: #1d4ed8;
 }
-
+/* About Me */
+  .about {
+    text-align: left;
+  }
+  .about h2 {
+    margin-bottom: 15px;
+  }
+  .about p {
+    max-width: 700px;
+    line-height: 1.7;
+    color: #4b5563;
+  }
+  /* Projects */
 .projects {
   text-align: left;
 }
