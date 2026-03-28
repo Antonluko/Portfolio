@@ -2,7 +2,7 @@ function Skills () {
 return (
     <section id="skills" className="skills">
         <h2> Skills</h2>
-        <section id="skills-group"> 
+        <div id="skills-group"> 
             <h3>Frontend</h3>
                 <div id="skills-list"> 
                  <div className="skills-list"> 
@@ -24,7 +24,7 @@ return (
                     <div className="skill-card">Vite</div>
                 </div>
             </div>
-        </section>
+        </div>
 
        
       
