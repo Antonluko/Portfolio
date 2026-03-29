@@ -4,7 +4,7 @@ import workoutImage from "../assets/workout.png"
 import bookImage from "../assets/book.png"
 function Projects() {
   return (
-    <section id="projects" classNamer="projects">
+    <section id="projects" className="projects">
       <h1>Projects</h1>
       <p>Here are my frontend projects i am working on.</p>
 

@@ -8,6 +8,5 @@ return (
         <a href="#contact">Contact</a>
     </nav>
 )
-
 }
 export default Navbar
