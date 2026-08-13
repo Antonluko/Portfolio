@@ -2,7 +2,6 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Contact</h2>
-      <p>You can contact me here</p>
       <ul className="contact-list">
         <li>Email: alukosevicus@inbox.lv</li>
         <li> 
